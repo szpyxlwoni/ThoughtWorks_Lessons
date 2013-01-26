@@ -29,6 +29,14 @@ public class BuildingLandTest {
     }
 
     @Test
+    public void should_return_false_if_player_money_is_minus() {
+        otherPlayer = new Player(0, 50);
+        buildingLand.execute(player);
+        Message message = buildingLand.execute(otherPlayer);
+        assertThat(message.getContent(), is("你破产了"));
+    }
+
+    @Test
     public void should_let_player_become_owner_when_it_been_first_landed() {
         Message message = buildingLand.execute(player);
         assertThat(message.getContent(), is("购买成功"));

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class RichController {
     private ArrayList<Land> lands;
     private ArrayList<Player> players;
-    private int currentPlayer = 0;
+    private Integer currentPlayer = 0;
 
     public void initLands() {
         lands = new ArrayList<Land>();

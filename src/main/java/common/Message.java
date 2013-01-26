@@ -2,7 +2,7 @@ package common;
 
 public class Message {
     private String content;
-    private int type;
+    private Integer type;
 
     public String getContent() {
         return content;
@@ -12,7 +12,11 @@ public class Message {
         this.content = content;
     }
 
-    public void setType(int type) {
+    public void setType(Integer type) {
         this.type = type;
+    }
+
+    public Integer getType() {
+        return type;
     }
 }

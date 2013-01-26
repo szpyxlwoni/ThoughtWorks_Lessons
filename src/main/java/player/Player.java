@@ -17,11 +17,12 @@ public class Player {
         position = position % Constant.LAND_SIZE;
     }
 
-    public void deduct(int fine) {
+    public boolean deduct(int fine) {
         money -= fine;
         if (money < 0) {
-            money = 0;
+            return false;
         }
+        return true;
     }
 
     public Integer getPosition() {

@@ -47,8 +47,12 @@ public class BuildingLand implements Land {
             level++;
             message.setContent("购买成功");
         } else if (player != owner) {
-            player.deduct(getFine());
-            message.setType(1);
+            if (!player.deduct(getFine())) {
+                message.setType(3);
+                message.setContent("你破产了");
+            }else {
+                message.setType(1);
+            }
         } else if (level < 3) {
             level++;
             message.setContent("升级成功");
