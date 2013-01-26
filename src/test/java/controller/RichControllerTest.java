@@ -1,5 +1,10 @@
+package controller;
+
+import common.Constant;
+import controller.RichController;
 import org.junit.Before;
 import org.junit.Test;
+import player.Player;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.not;
@@ -18,7 +23,7 @@ public class RichControllerTest {
 
     @Test
     public void should_init_lands() {
-        assertThat(controller.getLandSize(), is(70));
+        assertThat(controller.getLandSize(), is(Constant.LAND_SIZE));
     }
 
     @Test
@@ -29,7 +34,7 @@ public class RichControllerTest {
     @Test
     public void should_roll_a_random_number() {
         int randomNumber = controller.roll();
-        assertThat(randomNumber >= 1 && randomNumber <= 6, is(Boolean.TRUE));
+        assertThat(randomNumber >= 1 && randomNumber <= Constant.ROLL_SIZE, is(Boolean.TRUE));
     }
 
     @Test
