@@ -20,4 +20,10 @@ public class PlayerTest {
         player.move(6);
         assertThat(player.getPosition(), is(6));
     }
+
+    @Test
+    public void should_deduct_player_money() {
+        player.deduct(200);
+        assertThat(player.getMoney(), is(9800));
+    }
 }

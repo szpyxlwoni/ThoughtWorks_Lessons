@@ -1,22 +1,36 @@
 package common;
 
-public class Message {
-    private String content;
-    private Integer type;
+import java.util.ArrayList;
 
-    public String getContent() {
-        return content;
-    }
+public abstract class Message {
+    private final String content;
+    private Object newObject;
+    private ArrayList arrayList;
 
-    public void setContent(String content) {
+    protected Message(String content) {
         this.content = content;
     }
 
-    public void setType(Integer type) {
-        this.type = type;
+    public abstract void exeMessage();
+
+    public ArrayList getArrayList() {
+        return arrayList;
     }
 
-    public Integer getType() {
-        return type;
+    public void setArrayList(ArrayList arrayList) {
+        this.arrayList = arrayList;
+    }
+
+    public Object getNewObject() {
+        return newObject;
+    }
+
+    public void setNewObject(Object newObject) {
+        this.newObject = newObject;
+    }
+
+
+    public String getContent() {
+        return content;
     }
 }

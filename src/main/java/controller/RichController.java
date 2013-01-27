@@ -1,6 +1,7 @@
 package controller;
 
 import common.Constant;
+import land.BuildingLand;
 import land.Land;
 import landImpl.*;
 import player.Player;
@@ -31,21 +32,21 @@ public class RichController {
 
     private void initAreaFourOrFive() {
         for (int i = 0; i < Constant.AREA_SIZE; i++) {
-            Land land = new BuildingLand(Constant.AREA_FOUR_OR_FIVE_VALUE);
+            Land land = new OpenBuildingLand(Constant.AREA_FOUR_OR_FIVE_VALUE);
             lands.add(land);
         }
     }
 
     private void initAreaThree() {
         for (int i = 0; i < Constant.HOT_AREA_SIZE; i++) {
-            Land land = new BuildingLand(Constant.AREA_THREE_VALUE);
+            Land land = new OpenBuildingLand(Constant.AREA_THREE_VALUE);
             lands.add(land);
         }
     }
 
     private void initAreaOneOrTwo() {
         for (int i = 0; i < Constant.AREA_SIZE; i++) {
-            Land land = new BuildingLand(Constant.AREA_ONE_OR_TWO_VALUE);
+            Land land = new OpenBuildingLand(Constant.AREA_ONE_OR_TWO_VALUE);
             lands.add(land);
         }
     }

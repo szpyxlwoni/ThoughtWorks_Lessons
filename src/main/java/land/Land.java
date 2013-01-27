@@ -5,5 +5,6 @@ import player.Player;
 
 public interface Land {
     Message getStatus(Player player);
-    Message execute(Player player);
+
+    Message doLandAction(Player player);
 }
