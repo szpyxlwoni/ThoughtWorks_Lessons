@@ -1,6 +1,7 @@
 package controller;
 
 import common.Constant;
+import common.Message;
 import land.BuildingLand;
 import land.Land;
 import landImpl.*;
@@ -10,8 +11,12 @@ import java.util.ArrayList;
 
 public class RichController {
     private ArrayList<Land> lands;
-    private ArrayList<Player> players;
+    private ArrayList<Player> players = new ArrayList<Player>();
     private Integer currentPlayer = 0;
+
+    public RichController(ArrayList<Player> players) {
+        this.players = players;
+    }
 
     public void initLands() {
         lands = new ArrayList<Land>();
@@ -55,14 +60,6 @@ public class RichController {
         return this.lands.size();
     }
 
-    public void initPlayers(int playerNumber) {
-        players = new ArrayList<Player>();
-        for (int i = 0; i < playerNumber; i++) {
-            Player player = new Player(Constant.START_POSITION, 10000);
-            players.add(player);
-        }
-    }
-
     public Integer getPlayerSize() {
         return this.players.size();
     }
@@ -70,6 +67,11 @@ public class RichController {
     public void rollAndMove() {
         Player currentPlayer = getCurrentPlayer();
         currentPlayer.move(roll());
+        Land currentLandOfCurrentPlayer = getCurrentLandOfCurrentPlayer();
+        Message message = currentLandOfCurrentPlayer.getStatus(currentPlayer);
+        message.exeMessage();
+        message = currentLandOfCurrentPlayer.doLandAction(currentPlayer);
+        message.exeMessage();
     }
 
     public Integer roll() {
@@ -82,6 +84,10 @@ public class RichController {
     }
 
     public Player getCurrentPlayer() {
-        return players.get(currentPlayer);
+        return players.get(currentPlayer % players.size());
+    }
+
+    public Land getCurrentLandOfCurrentPlayer() {
+        return lands.get(getCurrentPlayer().getPosition());
     }
 }

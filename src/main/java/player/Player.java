@@ -7,9 +7,10 @@ public class Player {
     private String name;
     private Integer money;
 
-    public Player(int position, int money) {
+    public Player(String name, int position, int money) {
         this.position = position;
         this.money = money;
+        this.name = name;
     }
 
     public void move(int moveNumber) {

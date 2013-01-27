@@ -7,6 +7,6 @@ public class TextOnlyMessage extends Message {
 
     @Override
     public void exeMessage() {
-
+        System.out.println(getContent());
     }
 }

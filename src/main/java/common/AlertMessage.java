@@ -7,6 +7,6 @@ public class AlertMessage extends Message {
 
     @Override
     public void exeMessage() {
-
+        System.out.println(getContent());
     }
 }

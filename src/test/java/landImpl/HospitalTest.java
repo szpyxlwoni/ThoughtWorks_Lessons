@@ -17,7 +17,7 @@ public class HospitalTest {
     @Before
     public void set_up() {
         hospital = new Hospital();
-        player = new Player(0, 10000);
+        player = new Player("Test", 0, 10000);
     }
 
     @Test

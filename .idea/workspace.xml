@@ -5,19 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98e88625-6942-44fb-8d8c-313c81714a0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ouput/MessageOutput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/output/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java" afterPath="$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/input/PlayerCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/AlertMessage.java" afterPath="$PROJECT_DIR$/src/main/java/common/AlertMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/common/Constant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/landImpl/HospitalTest.java" afterPath="$PROJECT_DIR$/src/test/java/landImpl/HospitalTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java" afterPath="$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/player/Player.java" afterPath="$PROJECT_DIR$/src/main/java/player/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java" afterPath="$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/player/PlayerTest.java" afterPath="$PROJECT_DIR$/src/test/java/player/PlayerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/RichController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/RichController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/RichControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/controller/RichControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/landImpl/StartLandTest.java" afterPath="$PROJECT_DIR$/src/test/java/landImpl/StartLandTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java" afterPath="$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rich.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/PlayerTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359273270923" ignored="false" />
-    <file path="/fragment.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359275646639" ignored="false" />
-    <file path="/Player.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359274281210" ignored="false" />
+    <file path="/fragment.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359276347065" ignored="false" />
+    <file path="/Player.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359278340607" ignored="false" />
     <file path="/pom.xml" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359223523228" ignored="false" />
-    <file path="/RichControllerTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359185596735" ignored="false" />
-    <file path="/RichController.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359271003398" ignored="false" />
+    <file path="/RichControllerTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359278784221" ignored="false" />
+    <file path="/RichController.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359279467333" ignored="false" />
     <file path="/Land.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359272273301" ignored="false" />
     <file path="/BuildingLand.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359270119005" ignored="false" />
     <file path="/Dummy.txt" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359268594893" ignored="false" />
@@ -34,13 +43,18 @@
     <file path="/StartLandTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359272848135" ignored="false" />
     <file path="/OpenBuildingLandTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359274924871" ignored="false" />
     <file path="/TextOnlyMessageTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359271716883" ignored="false" />
-    <file path="/TextOnlyMessage.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359273446052" ignored="false" />
-    <file path="/AlertMessage.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359273467020" ignored="false" />
+    <file path="/TextOnlyMessage.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359279700657" ignored="false" />
+    <file path="/AlertMessage.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359278530657" ignored="false" />
     <file path="/ChangeObjectMessage.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359273457173" ignored="false" />
     <file path="/SimpleBuildingLandTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359273595172" ignored="false" />
     <file path="/UserBreakMessage.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359274399037" ignored="false" />
     <file path="/MessageOutputTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359275925445" ignored="false" />
     <file path="/MessageOutput.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359275940889" ignored="false" />
+    <file path="/PlaerCommandExplainTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359276650249" ignored="false" />
+    <file path="/PlayerCommandExplainTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359276387490" ignored="false" />
+    <file path="/PlayerCommandExplain.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359279513844" ignored="false" />
+    <file path="/PlayerCommand.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359278304868" ignored="false" />
+    <file path="/PlayerBreakMessage.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359279881124" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,22 +113,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SimpleBuildingLandTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/landImpl/SimpleBuildingLandTest.java">
+      <file leaf-file-name="PlayerCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/input/PlayerCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="35" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+            <state line="31" column="49" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#609#617#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="44" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageOutputTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java">
+      <file leaf-file-name="RichController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/RichController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="868" selection-end="868" vertical-scroll-proportion="0.63039017">
+            <state line="90" column="70" selection-start="2484" selection-end="2484" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#301#309#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RichControllerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/controller/RichControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="20" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#493#501#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlertMessage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/AlertMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="41" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerBreakMessage.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="23" selection-start="234" selection-end="234" vertical-scroll-proportion="0.32352942">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,44 +178,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ouput/MessageOutput.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="34" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenBuildingLandTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="40" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildingLand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/land/BuildingLand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerBreakMessage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/player/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,22 +201,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/landImpl/Hospital.java" />
-        <option value="$PROJECT_DIR$/src/main/java/landImpl/StartLand.java" />
-        <option value="$PROJECT_DIR$/src/test/java/landImpl/StartLandTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/input/PlayerCommandExplain.java" />
+        <option value="$PROJECT_DIR$/src/test/java/input/PlayerCommandExplainTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/input/PlayerCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/landImpl/HospitalTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/ChangeObjectMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/AlertMessage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/landImpl/SimpleBuildingLandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/landImpl/StartLandTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/player/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/player/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/UserBreakMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/landImpl/OpenBuildingLand.java" />
-        <option value="$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ouput/MessageOutput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/AlertMessage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controller/RichControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/RichController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/input/PlayerCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java" />
       </list>
     </option>
   </component>
@@ -301,6 +318,32 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rich" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rich" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -324,7 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,8 +462,30 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="landImpl" />
+              <option name="myItemId" value="Rich" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rich" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -446,7 +511,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="land" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,6 +534,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,6 +545,24 @@
       </pane>
       <pane id="Scope">
         <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Rich">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
@@ -508,6 +595,32 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Rich">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="common">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -549,6 +662,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="input" />
       <recent name="output" />
       <recent name="common" />
       <recent name="landImpl" />
@@ -561,7 +675,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MessageOutputTest.should_show_text_message_in_screen">
+  <component name="RunManager" selected="Application.PlayerCommand">
     <configuration default="false" name="OpenBuildingLandTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Rich" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -584,14 +698,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="MessageOutputTest.should_show_text_message_in_screen" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Rich" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="player" />
-      <option name="MAIN_CLASS_NAME" value="player.PlayerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="output" />
+      <option name="MAIN_CLASS_NAME" value="output.MessageOutputTest" />
+      <option name="METHOD_NAME" value="should_show_text_message_in_screen" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -603,6 +717,28 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PlayerCommand" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="input.PlayerCommand" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Rich" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -628,35 +764,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="OpenBuildingLandTest.should_get_player_break_message_when_player_break" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="RichControllerTest.should_get_land" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Rich" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="landImpl" />
-      <option name="MAIN_CLASS_NAME" value="landImpl.OpenBuildingLandTest" />
-      <option name="METHOD_NAME" value="should_get_player_break_message_when_player_break" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MessageOutputTest.should_show_text_message_in_screen" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Rich" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="output" />
-      <option name="MAIN_CLASS_NAME" value="output.MessageOutputTest" />
-      <option name="METHOD_NAME" value="should_show_text_message_in_screen" />
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.RichControllerTest" />
+      <option name="METHOD_NAME" value="should_get_land" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -762,18 +876,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.OpenBuildingLandTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PlayerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RichControllerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.OpenBuildingLandTest.should_get_player_break_message_when_player_break" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MessageOutputTest.should_show_text_message_in_screen" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MessageOutputTest.should_show_text_message_in_screen" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PlayerCommand" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RichControllerTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RichControllerTest.should_get_land" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MessageOutputTest.should_show_text_message_in_screen" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OpenBuildingLandTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.OpenBuildingLandTest.should_get_player_break_message_when_player_break" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PlayerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RichControllerTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PlayerCommand" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RichControllerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RichControllerTest.should_get_land" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MessageOutputTest.should_show_text_message_in_screen" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OpenBuildingLandTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -825,8 +939,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -895,51 +1009,50 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/common/TextOnlyMessageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="123" selection-end="123" vertical-scroll-proportion="0.11764706">
+        <state line="7" column="13" selection-start="137" selection-end="137" vertical-scroll-proportion="0.20588236">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/landImpl/HospitalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="427" selection-end="427" vertical-scroll-proportion="0.3529412">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/ChangeObjectMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="16" selection-end="16" vertical-scroll-proportion="0.029411765">
+        <state line="44" column="13" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.9411765">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/landImpl/SimpleBuildingLandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="32" selection-end="32" vertical-scroll-proportion="0.05882353">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/AlertMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/landImpl/StartLandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="117" selection-end="117" vertical-scroll-proportion="0.11764706">
-          <folding />
+        <state line="19" column="38" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5392157">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/landImpl/SimpleBuildingLand.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0882353">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RichController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="13" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.44117647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/controller/RichControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0882353">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/landImpl/OpenBuildingLand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="569" selection-end="569" vertical-scroll-proportion="0.64705884">
+        <state line="13" column="13" selection-start="290" selection-end="290" vertical-scroll-proportion="0.33333334">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -948,52 +1061,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/player/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="555" selection-end="555" vertical-scroll-proportion="0.6764706">
+        <state line="14" column="33" selection-start="281" selection-end="281" vertical-scroll-proportion="0.29411766">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/player/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+        <state line="16" column="32" selection-start="370" selection-end="370" vertical-scroll-proportion="0.52863437">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RichController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/land/BuildingLand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/landImpl/SimpleBuildingLandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/output/output">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="40" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+        <state line="90" column="70" selection-start="2484" selection-end="2484" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#301#309#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="44" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/controller/RichControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="20" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#493#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="39" selection-start="224" selection-end="224" vertical-scroll-proportion="0.2647059">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/AlertMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="41" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,12 +1119,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/input/PlayerCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="868" selection-end="868" vertical-scroll-proportion="0.63039017">
+        <state line="31" column="49" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#609#617#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="234" selection-end="234" vertical-scroll-proportion="0.32352942">
+          <folding />
         </state>
       </provider>
     </entry>

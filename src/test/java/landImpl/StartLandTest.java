@@ -2,7 +2,6 @@ package landImpl;
 
 import common.Message;
 import common.TextOnlyMessage;
-import land.Land;
 import org.junit.Before;
 import org.junit.Test;
 import player.Player;
@@ -18,7 +17,7 @@ public class StartLandTest {
     @Before
     public void set_up() {
         this.startLand = new StartLand();
-        this.player = new Player(0, 10000);
+        this.player = new Player("Test", 0, 10000);
     }
 
     @Test

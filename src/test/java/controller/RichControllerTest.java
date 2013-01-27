@@ -2,9 +2,12 @@ package controller;
 
 import common.Constant;
 import controller.RichController;
+import land.Land;
 import org.junit.Before;
 import org.junit.Test;
 import player.Player;
+
+import java.util.ArrayList;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.not;
@@ -16,9 +19,13 @@ public class RichControllerTest {
 
     @Before
     public void set_up() {
-        controller = new RichController();
+        ArrayList<Player> players = new ArrayList<Player>();
+        for (int i = 0; i < 2; i++) {
+            Player player = new Player("Test", 0, 10000);
+            players.add(player);
+        }
+        controller = new RichController(players);
         controller.initLands();
-        controller.initPlayers(2);
     }
 
     @Test
@@ -42,5 +49,12 @@ public class RichControllerTest {
         Player prevPlayer = controller.getCurrentPlayer();
         controller.changePlayer();
         assertThat(controller.getCurrentPlayer(), not(prevPlayer));
+    }
+
+    @Test
+    public void should_get_land() {
+        Land prevLandOfCurrentPlayer = controller.getCurrentLandOfCurrentPlayer();
+        controller.rollAndMove();
+        assertThat(controller.getCurrentLandOfCurrentPlayer(), not(prevLandOfCurrentPlayer));
     }
 }

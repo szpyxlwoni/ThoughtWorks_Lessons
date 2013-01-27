@@ -9,6 +9,5 @@ public class PlayerBreakMessage extends Message {
 
     @Override
     public void exeMessage() {
-
     }
 }

@@ -1,6 +1,7 @@
 package common;
 
 public class Constant {
+    public static final int INIT_MONEY = 100;
     public static final int START_POSITION = 0;
     public static final int ROLL_SIZE = 6;
     public static final int LAND_SIZE = 70;

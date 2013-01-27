@@ -19,7 +19,7 @@ public class OpenBuildingLandTest {
 
     @Before
     public void set_up() {
-        player = new Player(0, 10000);
+        player = new Player("Test", 0, 10000);
         land = new OpenBuildingLand(200);
     }
 
@@ -37,7 +37,7 @@ public class OpenBuildingLandTest {
 
     @Test
     public void should_get_player_break_message_when_player_break() {
-        player = new Player(0, 100);
+        player = new Player("Test", 0, 100);
         Message message = land.doLandAction(player);
         assertThat(message, is(PlayerBreakMessage.class));
     }
