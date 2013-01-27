@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98e88625-6942-44fb-8d8c-313c81714a0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MessageOutputTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/land/BuildingLand.java" afterPath="$PROJECT_DIR$/src/main/java/land/BuildingLand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/landImpl/OpenBuildingLand.java" afterPath="$PROJECT_DIR$/src/main/java/landImpl/OpenBuildingLand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java" afterPath="$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/player/Player.java" afterPath="$PROJECT_DIR$/src/main/java/player/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/MessageOutputTest.java" afterPath="$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java" />
     </list>
     <ignored path="Rich.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,9 +104,9 @@
         </entry>
       </file>
       <file leaf-file-name="MessageOutputTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MessageOutputTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+            <state line="2" column="30" selection-start="47" selection-end="47" vertical-scroll-proportion="0.05882353">
               <folding />
             </state>
           </provider>
@@ -174,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/land/BuildingLand.java" />
         <option value="$PROJECT_DIR$/src/main/java/landImpl/ChangeObjectMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/landImpl/Hospital.java" />
         <option value="$PROJECT_DIR$/src/main/java/landImpl/StartLand.java" />
@@ -190,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/main/java/common/UserBreakMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/landImpl/OpenBuildingLand.java" />
         <option value="$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java" />
       </list>
     </option>
   </component>
@@ -289,6 +283,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rich" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rich" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="output" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -941,9 +961,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MessageOutputTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/output/MessageOutputTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+        <state line="2" column="30" selection-start="47" selection-end="47" vertical-scroll-proportion="0.05882353">
           <folding />
         </state>
       </provider>
