@@ -19,10 +19,7 @@ public class Player {
 
     public boolean deduct(int fine) {
         money -= fine;
-        if (money < 0) {
-            return false;
-        }
-        return true;
+        return money >= 0;
     }
 
     public Integer getPosition() {

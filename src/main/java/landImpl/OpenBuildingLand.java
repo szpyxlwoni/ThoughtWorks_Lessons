@@ -20,9 +20,8 @@ public class OpenBuildingLand extends BuildingLand {
 
     @Override
     public Message doLandAction(Player player) {
-        Message message = new ChangeObjectMessage("升级成功");
+        Message message = new ChangeObjectMessage("购买成功");
         message.setNewObject(new SimpleBuildingLand(getValue()));
-        player.deduct(getValue());
-        return message;
+        return deductPlayerMoney(player, message);
     }
 }
