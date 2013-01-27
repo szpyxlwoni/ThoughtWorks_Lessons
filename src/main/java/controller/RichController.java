@@ -79,12 +79,25 @@ public class RichController {
         return random.intValue() % Constant.ROLL_SIZE + 1;
     }
 
-    public void changePlayer() {
-         currentPlayer++;
+    public boolean changePlayer() {
+        deleteBreakPlayer();
+        currentPlayer++;
+        currentPlayer = currentPlayer % players.size();
+        if (players.size() == 1) {
+            return true;
+        }
+        return false;
+    }
+
+    public void deleteBreakPlayer() {
+        if (getCurrentPlayer().getMoney() < 0) {
+            players.remove(getCurrentPlayer());
+            currentPlayer--;
+        }
     }
 
     public Player getCurrentPlayer() {
-        return players.get(currentPlayer % players.size());
+        return players.get(currentPlayer);
     }
 
     public Land getCurrentLandOfCurrentPlayer() {

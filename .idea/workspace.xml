@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98e88625-6942-44fb-8d8c-313c81714a0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/input/PlayerCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/AlertMessage.java" afterPath="$PROJECT_DIR$/src/main/java/common/AlertMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/common/Constant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/landImpl/HospitalTest.java" afterPath="$PROJECT_DIR$/src/test/java/landImpl/HospitalTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java" afterPath="$PROJECT_DIR$/src/test/java/landImpl/OpenBuildingLandTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/player/Player.java" afterPath="$PROJECT_DIR$/src/main/java/player/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/input/PlayerCommand.class" afterPath="$PROJECT_DIR$/target/classes/input/PlayerCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java" afterPath="$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/player/PlayerTest.java" afterPath="$PROJECT_DIR$/src/test/java/player/PlayerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/input/PlayerCommand.java" afterPath="$PROJECT_DIR$/src/main/java/input/PlayerCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/RichController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/RichController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/RichControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/controller/RichControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/landImpl/StartLandTest.java" afterPath="$PROJECT_DIR$/src/test/java/landImpl/StartLandTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java" afterPath="$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rich.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +17,7 @@
     <file path="/Player.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359278340607" ignored="false" />
     <file path="/pom.xml" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359223523228" ignored="false" />
     <file path="/RichControllerTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359278784221" ignored="false" />
-    <file path="/RichController.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359279467333" ignored="false" />
+    <file path="/RichController.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359281364991" ignored="false" />
     <file path="/Land.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359272273301" ignored="false" />
     <file path="/BuildingLand.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359270119005" ignored="false" />
     <file path="/Dummy.txt" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359268594893" ignored="false" />
@@ -53,8 +44,8 @@
     <file path="/PlaerCommandExplainTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359276650249" ignored="false" />
     <file path="/PlayerCommandExplainTest.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359276387490" ignored="false" />
     <file path="/PlayerCommandExplain.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359279513844" ignored="false" />
-    <file path="/PlayerCommand.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359278304868" ignored="false" />
-    <file path="/PlayerBreakMessage.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359279881124" ignored="false" />
+    <file path="/PlayerCommand.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359281020769" ignored="false" />
+    <file path="/PlayerBreakMessage.java" changelist="98e88625-6942-44fb-8d8c-313c81714a0a" time="1359280714680" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,10 +104,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PlayerCommand.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PlayerCommand.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/input/PlayerCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="49" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
+            <state line="54" column="41" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.7058824">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#609#617#0" expanded="true" />
@@ -137,7 +128,7 @@
       <file leaf-file-name="RichController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/RichController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="70" selection-start="2484" selection-end="2484" vertical-scroll-proportion="0.0">
+            <state line="84" column="23" selection-start="2316" selection-end="2316" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#301#309#0" expanded="true" />
               </folding>
@@ -165,10 +156,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerBreakMessage.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PlayerBreakMessage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="234" selection-end="234" vertical-scroll-proportion="0.32352942">
+            <state line="11" column="37" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,11 +203,11 @@
         <option value="$PROJECT_DIR$/src/main/java/player/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/AlertMessage.java" />
         <option value="$PROJECT_DIR$/src/test/java/controller/RichControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/RichController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/input/PlayerCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/input/PlayerCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/RichController.java" />
       </list>
     </option>
   </component>
@@ -924,7 +915,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -940,7 +931,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1073,18 +1064,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RichController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="70" selection-start="2484" selection-end="2484" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#301#309#0" expanded="true" />
-          </folding>
+        <state line="9" column="39" selection-start="224" selection-end="224" vertical-scroll-proportion="0.2647059">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/Constant.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ouput/MessageOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="44" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+        <state line="4" column="34" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="37" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/AlertMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="41" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1098,41 +1101,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/TextOnlyMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RichController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="224" selection-end="224" vertical-scroll-proportion="0.2647059">
-          <folding />
+        <state line="84" column="23" selection-start="2316" selection-end="2316" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#301#309#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/AlertMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ouput/MessageOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+        <state line="3" column="44" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/input/PlayerCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
+        <state line="54" column="41" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.7058824">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#609#617#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/PlayerBreakMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="234" selection-end="234" vertical-scroll-proportion="0.32352942">
-          <folding />
         </state>
       </provider>
     </entry>

@@ -50,7 +50,10 @@ public class PlayerCommand {
         while (!command.equals("quit")) {
             if (command.equals("roll")) {
                 controller.rollAndMove();
-                controller.changePlayer();
+                if (controller.changePlayer()) {
+                    System.out.println(controller.getCurrentPlayer().getName() + "胜利");
+                    break;
+                }
             }
             System.out.print(controller.getCurrentPlayer().getName() + ">");
             System.out.flush();
